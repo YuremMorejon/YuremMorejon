@@ -14,8 +14,9 @@ int main() {
 
     printf("Resultado: ");
 
-
-
+    for (int i = inicio; i <= fin ; i+= incremento) {
+        printf("%d ", i);
+    }
 
 return 0;
 }
